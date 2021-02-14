@@ -57,6 +57,10 @@ public class User {
 		return "User [id=" + id + ", name=" + name + ", birthDate=" + birthDate + "]";
 	}
 
+	protected User() {
+		// No arg constructor-
+	}
+	
 	public User(Integer id, String name, Date birthDate) {
 		super();
 		this.id = id;
@@ -64,9 +68,7 @@ public class User {
 		this.birthDate = birthDate;
 	}
 
-	public User() {
-		// TODO Auto-generated constructor stub
-	}
+
 	
 	
 }
